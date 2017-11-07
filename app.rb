@@ -1,5 +1,8 @@
 require 'sinatra'
 require 'sinatra/reloader'
+require 'sendgrid-ruby'
+
+include SendGrid
 
 get '/' do
   erb :index
@@ -25,12 +28,7 @@ end
 
 
 
-
-
-
-
-
-post '/my-handling-form-page' do
+post '/' do
 
 from = Email.new(email: params['email'])
  to = Email.new(email: 'ferare2007@gmail.com')

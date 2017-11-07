@@ -68,7 +68,11 @@ form {
 
 #contactForm {
   margin-top: 1em;
-  padding-top: 10%;
+  padding-top: 12%;
+}
+
+form input .send{
+  padding-left:20px;
 }
 
 label {
