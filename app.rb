@@ -33,7 +33,7 @@ end
 post '/' do
 
 from = Email.new(email: params['email'])
- to = Email.new(email: '')
+ to = Email.new(email: 'ferare2007@gmail.com')
  subject = 'Sending with SendGrid is Fun'
  content = Content.new(type: 'text/plain', value: params['body'])
  mail = Mail.new(from, subject, to, content)
