@@ -14,7 +14,7 @@ div.navbar.navbar-default {
 }
 
 div.navbar.navbar-default.navbar-fixed-top.semi-transparent {
-  border-color: black;
+  border-color:black;
 }
 
 img#logo {
@@ -124,6 +124,7 @@ i:hover {
   left: 0;
   animation: 35s slidy infinite;
 }
+
 
 @keyframes slidy {
   0% {
