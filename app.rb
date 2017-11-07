@@ -11,7 +11,7 @@ end
 get '/about' do
   erb :about
 end
-get '/' do
+get '/ship' do
   erb :ship
 end
 
