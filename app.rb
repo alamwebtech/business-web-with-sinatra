@@ -30,7 +30,7 @@ end
 
 
 
-post '/' do
+post '/my-handling-form-page' do
 
 from = Email.new(email: params['email'])
  to = Email.new(email: 'ferare2007@gmail.com')
