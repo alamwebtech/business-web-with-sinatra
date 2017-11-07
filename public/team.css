@@ -1,94 +1,72 @@
-body{
-
-  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("png/team.jpg");
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("png/team.jpg");
   background-size: cover;
   background-position: relative;
 }
 
-html{
+html {
   height: 100%;
 }
 
-
 div.navbar.navbar-default {
-    background-color: transparent;
-    height: 130px;
-
-
+  background-color: transparent;
+  height: 130px;
 }
 
-
-
-
-div.navbar.navbar-default.navbar-fixed-top.semi-transparent{
-	border-color: black;
+div.navbar.navbar-default.navbar-fixed-top.semi-transparent {
+  border-color: black;
 }
 
-
-img#logo{
-
-	height: 80px;
-
-	margin: 0 auto;
-	text-decoration: none;
-
+img#logo {
+  height: 80px;
+  margin: 0 auto;
+  text-decoration: none;
 }
 
-
-p#brand{
-
-	text-decoration: none;
-	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
-
+p#brand {
+  text-decoration: none;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
 }
 
-p#brand:hover{
-	color: gold;
-    -webkit-transform: rotateZ(-180deg);
-    -ms-transform: rotateZ(-180deg);
-    transform: rotateZ(-180deg);
-
+p#brand:hover {
+  color: gold;
+  -webkit-transform: rotateZ(-180deg);
+  -ms-transform: rotateZ(-180deg);
+  transform: rotateZ(-180deg);
 }
 
-
-.navbar-collapse.collapse{
-    padding-top: 30px;
-    font-family: 'muli';
-    color : #ECF0F1;
-    font-size: 1.1em;
-    font-style: none;
-
+.navbar-collapse.collapse {
+  padding-top: 30px;
+  font-family: 'muli';
+  color: #ECF0F1;
+  font-size: 1.1em;
+  font-style: none;
 }
 
-.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
-	color: #e5e5e5;
-
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a {
+  color: #e5e5e5;
 }
 
-.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover{
-	color: gold;
-	-webkit-transform: rotateZ(-180deg);
-    -ms-transform: rotateZ(-180deg);
-    transform: rotateZ(-180deg);
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover {
+  color: gold;
+  -webkit-transform: rotateZ(-180deg);
+  -ms-transform: rotateZ(-180deg);
+  transform: rotateZ(-180deg);
 }
 
-div h2{
-
-   padding-top: 0;
-   text-align: center;
-   color:white;
-   text-decoration: none;
-   padding-bottom: 20px;
-   font-family: 'Josefin Sans', sans-serif;
+div h2 {
+  padding-top: 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-.row{
+.row {
   padding-top: 10%;
-
-  display:inline-block;
+  display: inline-block;
   margin: 0 auto;
 }
