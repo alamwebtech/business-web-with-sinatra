@@ -1,0 +1,94 @@
+body{
+
+  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("png/mail.jpg");
+  background-size: cover;
+  background-position: relative;
+}
+
+html{
+  height: 100%;
+}
+
+
+
+
+
+div.navbar.navbar-default {
+    background-color: transparent;
+    height: 130px;
+
+
+}
+
+
+
+
+div.navbar.navbar-default.navbar-fixed-top.semi-transparent{
+	border-color: black;
+}
+
+
+img#logo{
+
+	height: 80px;
+
+	margin: 0 auto;
+	text-decoration: none;
+
+}
+
+
+p#brand{
+
+	text-decoration: none;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-top: 10px;
+
+}
+
+p#brand:hover{
+	color: gold;
+    -webkit-transform: rotateZ(-180deg);
+    -ms-transform: rotateZ(-180deg);
+    transform: rotateZ(-180deg);
+
+}
+
+
+.navbar-collapse.collapse{
+    padding-top: 30px;
+    font-family: 'muli';
+    color : #ECF0F1;
+    font-size: 1.1em;
+    font-style: none;
+
+}
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
+	color: #e5e5e5;
+
+}
+
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover{
+	color: gold;
+	-webkit-transform: rotateZ(-180deg);
+    -ms-transform: rotateZ(-180deg);
+    transform: rotateZ(-180deg);
+}
+
+
+.shipping{
+
+  padding-top: 15%;
+text-decoration: none;
+color:#A8CBFF;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.1em;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  opacity: 1px;
+}
