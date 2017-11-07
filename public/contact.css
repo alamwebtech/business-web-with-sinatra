@@ -1,96 +1,72 @@
-body{
-
-  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("png/phone.jpg");
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("png/phone.jpg");
   background-size: cover;
   background-position: relative;
 }
 
-html{
+html {
   height: 100%;
 }
 
-
-
-
-
 div.navbar.navbar-default {
-    background-color: transparent;
-    height: 130px;
-
-
+  background-color: transparent;
+  height: 130px;
 }
 
-
-
-
-div.navbar.navbar-default.navbar-fixed-top.semi-transparent{
-	border-color: black;
+div.navbar.navbar-default.navbar-fixed-top.semi-transparent {
+  border-color: black;
 }
 
-
-img#logo{
-
-	height: 80px;
-
-	margin: 0 auto;
-	text-decoration: none;
-
+img#logo {
+  height: 80px;
+  margin: 0 auto;
+  text-decoration: none;
 }
 
-
-p#brand{
-
-	text-decoration: none;
-	color: white;
-	font-family: 'Josefin Sans', sans-serif;
-	padding-top: 10px;
-
+p#brand {
+  text-decoration: none;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
 }
 
-p#brand:hover{
-	color: gold;
-    -webkit-transform: rotateZ(-180deg);
-    -ms-transform: rotateZ(-180deg);
-    transform: rotateZ(-180deg);
-
+p#brand:hover {
+  color: gold;
+  -webkit-transform: rotateZ(-180deg);
+  -ms-transform: rotateZ(-180deg);
+  transform: rotateZ(-180deg);
 }
 
-
-.navbar-collapse.collapse{
-    padding-top: 30px;
-    font-family: 'muli';
-    color : #ECF0F1;
-    font-size: 1.1em;
-    font-style: none;
-
+.navbar-collapse.collapse {
+  padding-top: 30px;
+  font-family: 'muli';
+  color: #ECF0F1;
+  font-size: 1.1em;
+  font-style: none;
 }
 
-.navbar.semi-transparent.navbar-default .navbar-nav>li>a{
-	color: #e5e5e5;
-
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a {
+  color: #e5e5e5;
 }
 
-.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover{
-	color: gold;
-	-webkit-transform: rotateZ(-180deg);
-    -ms-transform: rotateZ(-180deg);
-    transform: rotateZ(-180deg);
+.navbar.semi-transparent.navbar-default .navbar-nav>li>a:hover {
+  color: gold;
+  -webkit-transform: rotateZ(-180deg);
+  -ms-transform: rotateZ(-180deg);
+  transform: rotateZ(-180deg);
 }
-
-
 
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
   width: 400px;
-
   /* To see the limits of the form */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
 }
 
-#contactForm{
+#contactForm {
   margin-top: 1em;
   padding-top: 10%;
 }
@@ -107,14 +83,10 @@ input, textarea {
   /* To make sure that all text field have the same font settings
      By default, textarea are set with a monospace font */
   font: 1em sans-serif;
-
-
   /* To give the same size to all text field */
   width: 250px;
-
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
-
+  box-sizing: border-box;
   /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
 }
@@ -127,10 +99,8 @@ input:focus, textarea:focus {
 textarea {
   /* To properly align multiline text field with their label */
   vertical-align: top;
-
   /* To give enough room to type some text */
   height: 5em;
-
   /* To allow users to resize any textarea vertically
      It works only on Chrome, Firefox and Safari */
   resize: vertical;
@@ -138,7 +108,8 @@ textarea {
 
 .button {
   /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 90px;
+  /* same size as the label elements */
 }
 
 div button {
